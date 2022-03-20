@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Images</title>
+    </head>
+    <body>
+        <!--Go back to Google Search-->
+        <div style="height:48px;">
+            <div style="text-align:right;margin-top: 12px;margin-right: 1.5%;padding-top: 6px;">
+                <style>.link{color: rgba(0,0,0,0.87); text-decoration: none; cursor: pointer; font: 13px Arial,sans-serif; z-index: 986; padding-right: 15px;}</style>
+                <a class="link" style="display: inline-block;  height: 24px; line-height: 24px;" href="index.html" target="_top">Go back to Google Search</a>
+            </div>
+        </div> 
+        <!--Logo-->
+        <div style="display:flex;flex-direction:column;align-items:center;height:193.6px;">
+            <div style="height:92px;margin-top: 101.6px;position: relative;">
+                <img style="max-height:100%;max-width:100%;object-fit:contain;object-position:center bottom;width:auto;" alt="Google Images" src="googlelogo_color_272x92dp.png" height="92" width="272" >
+                <span style="color:#4285f4;font:16px roboto-regular, arial, sans-serif;position: absolute; left:215px;bottom: 0px;height: 16px;">Images</span>
+            </div>
+        </div>
+        <!--Search Area-->
+        <div style="height: 120px;padding: 20px;">
+            <!--Search Bar-->
+            <form action="http://www.google.com.sg/search" method="get">
+                <div style="display:flex;z-index:3;height:44px;background:#fff;border:1px solid #dfe1e5;box-shadow:none;border-radius:24px;margin:0 auto;width:auto;max-width:584px;margin-top: 5px;">
+                    <div style="flex:1;display:flex;padding:5px 8px 0 14px;">
+                        <div style="display:flex;align-items:center;padding-right:13px;margin-top:-5px;">
+                            <img src="searchIcon.png" height="15px" width="15px">
+                        </div>
+                        <div style="width: 490px;height: 34px;">
+                            <input style="background-color:transparent;border:none;color:rgba(0,0,0,.87);word-wrap:break-word;outline:none;display:flex;flex:100%;-webkit-tap-highlight-color:transparent;width: 490px;;height:34px;font-size:16px;" maxlength="2048" type="text"name="q" >
+                        </div>                          
+                    </div>
+                    <!--Search Button-->
+                    <button style="height:44px;width:44px;background:transparent;border:none;padding:0 13px 0 0;" type="submit"> 
+                        <span>
+                            <svg style="fill:#4285f4; height:24px;width:24px;" focusable="false"viewBox="0 0 24 24">
+                                <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                            </svg>
+                        </span> 
+                    </button>
+                </div>
+                <!--other URL Parameters-->
+                <input name="hl" value="en" type="hidden">
+                <input name="tbm" value="isch" type="hidden">
+                <input name="source"value="hp" type="hidden" >
+            </form>
+        </div>
+    </body>
+</html>
+
+

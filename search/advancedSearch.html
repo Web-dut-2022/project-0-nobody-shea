@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+    </head>
+    <body style="font-family: Roboto,arial,sans-serif; margin: 0;">
+        <!--Logo-->
+        <div style="position: absolute;left: 20px;top: 8px;">
+            <div style="height:48px;">
+                <img style="margin-top: 12px;" alt="Google" src="googlelogo_color_272x92dp.png" width="74" height="24" >
+            </div>
+        </div>
+        <!--Go back to Google Search-->
+        <div style="height:48px;">
+            <div style="text-align:right;margin-top: 12px;margin-right: 1.5%;padding-top: 6px;">
+                <style>.link{color: rgba(0,0,0,0.87); text-decoration: none; cursor: pointer; font: 13px Arial,sans-serif; z-index: 986; padding-right: 15px;}</style>
+                <a class="link" style="display: inline-block;  height: 24px; line-height: 24px;" href="index.html" target="_top">Go back to Google Search</a>
+            </div>
+        </div> 
+        <!--Advanced Search Bar-->
+        <div style="color: #d93025; font-size: 20px; margin: 25px 35px;"> 
+            <label style="margin-left:10px">Advanced Search</label>    
+        </div>
+        <div style="border-bottom: 1px solid #ebebeb;"></div>
+        <!--Search Area-->
+        <div style="margin: 40px 2% 0 45px;max-width: 1140px; min-height: 252px;"> 
+            <form action="http://www.google.com/search" method="GET" name="f">    
+            <style>
+            .options{float: left; min-width: 167px; width: 16%; height: 42px; color: #222; font-size: 13px; line-height: 16px;}
+            .inputBar{float: left; width: 50%; height: 42px;}
+            .textInput{border-radius: 1px; border: 1px solid #d9d9d9; border-top: 1px solid #c0c0c0; font-size: 13px; height: 25px;width: 97%; padding: 1px 8px;}
+            .directions{float: left; width: 32%; min-width: 160px;height: 42px; margin: 0 0 0 1%; color: #555; font-size: 11px; padding-left: 5px; position: relative;}
+            .examples{color: #666; font-family: monospace; font-size: 11px; white-space: pre;}
+            .text{height: 30px; display: table-cell; vertical-align: middle;}
+            .button{line-height:100%;height:30px;min-width:120px; float: right; margin: 10px 0;padding: 0 12px;}
+            .buttonText{border-radius: 2px; cursor: default; font-size: 11px; font-weight: bold; text-align: center; white-space: nowrap;outline: 0;}
+            .buttonColor{box-shadow: none; background-color: #4d90fe; background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed); border: 1px solid #3079ed; color: #fff;}
+            </style> 
+                <div>
+                    <div style="float:left; width: 16%; min-width: 167px; height: 42px; font-size: 16px;"> 
+                        <div class="text">
+                            <span>Find pages with...</span>
+                        </div>
+                    </div> 
+                    <div class="inputBar">&nbsp;</div>
+                    <div style="float: left; width: 33%; height: 42px; font-size: 13px; font-weight: 700; color: #777; padding-left: 5px;"> 
+                        <div class="text">
+                            To do this in the search box
+                        </div>
+                    </div>    
+                </div> 
+                <div> 
+                    <div class="options"> 
+                        <div class="text">
+                            <label for="xX4UFf">all these words:</label>
+                        </div>   
+                    </div> 
+                    <div class="inputBar"> 
+                        <input class="textInput" value="" autofocus="autofocus" id="xX4UFf" name="as_q" type="text"> 
+                    </div> 
+                    <div class="directions">
+                        <div class="text">
+                            Type the important words:  <span class="examples">tri-colour rat terrier</span> 
+                        </div>
+                    </div> 
+                </div> 
+                <div> 
+                    <div class="options"> 
+                        <div class="text">
+                            <label for="CwYCWc">this exact word or phrase:</label> 
+                        </div>
+                    </div> 
+                    <div class="inputBar"> 
+                        <input class="textInput" value="" id="CwYCWc" name="as_epq" type="text"> 
+                    </div> 
+                    <div class="directions">
+                        <div class="text">
+                            Put exact words in quotes:  <span class="examples">"rat terrier"</span> 
+                        </div>
+                    </div>
+                </div> 
+                <div> 
+                    <div class="options">
+                        <div class="text">
+                            <label for="mSoczb">any of these words:</label>
+                        </div>
+                    </div> 
+                    <div class="inputBar"> 
+                        <input class="textInput" value="" id="mSoczb" name="as_oq" type="text">                             
+                    </div> 
+                    <div class="directions">
+                        <div class="text">
+                            Type 
+                            <span class="examples">OR</span> 
+                            between all the words you want:  
+                            <span class="examples">miniature OR standard</span>   
+                        </div>
+                    </div>
+                </div>
+                <div> 
+                    <div class="options"> 
+                        <div class="text">
+                            <label for="t2dX1c">none of these words:</label>
+                        </div>
+                    </div> 
+                    <div class="inputBar"> 
+                        <input class="textInput" value="" id="t2dX1c" name="as_eq" type="text"> 
+                    </div> 
+                    <div class="directions">
+                        <div class="text">
+                            Put a minus sign just before words that you don't want:  
+                            <span class="examples">-rodent, -"Jack Russell"</span>             
+                        </div>
+                    </div>
+                </div> 
+                <div class="options"></div>
+                <!--Button-->
+                <div class="inputBar" style="text-align:right"> 
+                    <input class="button buttonColor buttonText" value="Advanced Search" type="submit"> 
+                </div>
+            </form>
+        </div>
+        <div style="border-bottom: 1px solid #ebebeb;padding-top: 22px;"></div>
+    </body>
+</html>
